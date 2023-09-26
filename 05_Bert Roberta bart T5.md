@@ -215,6 +215,7 @@ BART采用了多种方式破坏原文档，即采用了多种Noise.
 
 #### 3.5.4  Machine Translation
 
+
 ![](https://pic2.zhimg.com/v2-29ab95e74e414783008bef436834204d_r.jpg)
 
 因输入语言不再是预训练模型采用的英语, 本文替换encoder的embedding layer的参数为随机初始化所得。然后，整个finetue阶段便可分为两步：
@@ -222,6 +223,8 @@ BART采用了多种方式破坏原文档，即采用了多种Noise.
 1. 先冻结BART的大部分参数，仅仅更新encoder部分的randomly initialized encoder和BART positional embeddings，以及输入到BART的第一层self-attention映射矩阵。
 
 2. 更新BART的全部参数，这一步，仅需迭代几次即可。
+
+#### 3.6 BART位置编码为绝对位置编码
 
 ## 总结:
 
