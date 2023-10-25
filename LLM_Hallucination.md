@@ -1,5 +1,5 @@
-## **LLM Hallucination**
-# **什么是大模型的幻觉**
+# **LLM Hallucination**
+## **1. 什么是大模型的幻觉**
 
 大模型幻觉的三种类型：
 
@@ -10,8 +10,8 @@
 3.生成的内容中有事实性错误：Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
 
 
-# **大模型的幻觉评估方法与评价指标**
+## **2. 大模型的幻觉评估方法与评价指标**
 
-# **引起大模型幻觉的因素**
+## **3. 引起大模型幻觉的因素**
 
-# **缓解大模型幻觉的方法**
+## **4. 缓解大模型幻觉的方法**
