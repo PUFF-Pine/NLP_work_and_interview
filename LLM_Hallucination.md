@@ -1,5 +1,5 @@
 ## **LLM Hallucination**
-#**什么是大模型的幻觉**
+# **什么是大模型的幻觉**
 
 大模型幻觉的三种类型：
 
@@ -8,3 +8,10 @@
 2.生成的内容中，前后矛盾：Context-conflicting hallucination, where LLMs generate content that conflicts with previously generated information by itself
 
 3.生成的内容中有事实性错误：Fact-conflicting hallucination, where LLMs generate content that is not faithful to established world knowledge.
+
+
+# **大模型的幻觉评估方法与评价指标**
+
+# **引起大模型幻觉的因素**
+
+# **缓解大模型幻觉的方法**
