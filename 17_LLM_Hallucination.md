@@ -1,4 +1,4 @@
-# **17_LLM_Hallucination**
+# **17. LLM Hallucination**
 ## **1. 什么是大模型的幻觉**
 
 大模型幻觉的三种类型：
